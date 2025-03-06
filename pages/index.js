@@ -14,6 +14,10 @@ export default function Home() {
           Hello World! <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
+        <h1 className={styles.title}>
+          This is NEXT_PUBLIC_TEXT env-value 👉: <a href="https://nextjs.org">{process.env.NEXT_PUBLIC_TEXT}</a>
+        </h1>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
