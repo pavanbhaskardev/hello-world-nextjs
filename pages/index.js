@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+// added a invalid variable access for deployment failure
+console.log(`Env: NEXT_PUBLIC_TEXT=${NEXT_PUBLIC_TEXT}`)
+
 export default function Home() {
   return (
     <div className={styles.container}>
