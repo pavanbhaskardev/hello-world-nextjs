@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
 
         <h1 className={styles.title}>
-          This is NEXT_PUBLIC_TEXT env-value 👉: <a href="https://nextjs.org">{process.env.NEXT_PUBLIC_TEXT}</a>
+          This is NEXT_PUBLIC_TEXT env-variable 👉: <a href="https://nextjs.org">{process.env.NEXT_PUBLIC_TEXT}</a>
         </h1>
 
         <p className={styles.description}>
